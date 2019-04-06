@@ -12,7 +12,7 @@ Use the `extract_characters.py` script to find characters and ligatures from the
 
 `training_select.py` is used to manually annotate / label the ligatures.
 
-From this labelled training set, two machine learning tasks ensue. One is finding the typesetting paramaters, paragraphs, spacing, etc (TODO). The other task is to generate an accurate vector-representation of the font used. Therefore, the average of all occurences of a character is calculated. This average is a reconstruction of the original "sort" or "type" used for the printing and can be vectorized to get the font.
+From this labelled training set, two machine learning tasks ensue. One is finding the typesetting paramaters, paragraphs, spacing, etc (TODO). The other task is to generate an accurate vector-representation of the font used. Therefore, the average of all occurences of a character is calculated with `average_chars.py`. This average is a reconstruction of the original "sort" or "type" used for the printing and can be vectorized to get the font.
 
 
 Dependencies:
